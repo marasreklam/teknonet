@@ -1,0 +1,46 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 19/08/2017 21:16
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-microphone:before { content: "\f100"; }
+.flaticon-television:before { content: "\f101"; }
+.flaticon-muslim-tasbih:before { content: "\f102"; }
+.flaticon-allah-word:before { content: "\f103"; }
+.flaticon-islamic-lantern:before { content: "\f104"; }
+.flaticon-praying-hands:before { content: "\f105"; }
+.flaticon-quran-rehal:before { content: "\f106"; }
+.flaticon-islamic-prayer:before { content: "\f107"; }
+.flaticon-mosque-1:before { content: "\f108"; }
+.flaticon-reading-quran:before { content: "\f109"; }
+.flaticon-halal-sign:before { content: "\f10a"; }
+.flaticon-mosque-and-moon:before { content: "\f10b"; }
+.flaticon-kaaba-mecca:before { content: "\f10c"; }
+.flaticon-mosque:before { content: "\f10d"; }
+.flaticon-dua-hands:before { content: "\f10e"; }
